@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    height: 100vh;
+    width: 93%;
+    background-image: url(image/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 5%;
+   
+    
+    
+}
+.container p{
+    font-size: 30px;
+    font-family: 'Maven Pro', sans-serif;
+
+    color: #333;
+}
+
+
+
+
+/*----footer----*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    /*padding: 30px 0;*/
+    padding-top: 190px;
+    
+
+}
+
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 15px 0;
+
+}
+.fa-heart-o{
+    color: #f44336;
+}
+.icons .fa:hover{
+    color: #fa564a;
+    
+}
+
+
+
+
+.navbar{
+    width: 100%;
+   margin-left: 32px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 18px;
+
+} 
+nav ul li a:hover{
+    color: #f44336;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+    font-family: 'Shadows Into Light', cursive;
+}
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+.content{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.content a{
+    margin-top: 60px;
+}
+.content .btn{
+    display: inline-block;
+    background:#fa564a;
+
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+.content .btn:hover{
+    color:#f44336;
+    background-color: transparent;
+}
+.feature-img
+{
+    height: 70px;
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.feature-img1
+{
+    height: 80%;
+    right: 0px;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+
+}
+
+/* footer section styling */
+footer{
+
+    padding-top: 0px;
+    color: #333;
+    text-align: center;
+     font-family: 'Maven Pro', sans-serif;
+font-family: 'Poppins', sans-serif;
+padding-top: 5px;
+}
+
